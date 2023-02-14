@@ -3,10 +3,10 @@ name: GSI Build
 on: [push]
 
 env:
-  ROM_URL: https://pilotfiber.dl.sourceforge.net/project/NusantaraProject//jasmine_sprout/Nusantara_v1.0-jasmine_sprout-14082020-OFFICIAL-0602.zip
-  ROM_NAME: Generic:Nusantara_v1
-  ZIP_NAME: Nusantara_v1
-  TZ: America/Sao_Paulo
+  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/M3E/8.0.5.0/cn/20210616171821/4baf5263/update.zip
+  ROM_NAME: flyme8.0-GSI
+  ZIP_NAME: Flyme8.0-GSI
+  TZ: Asia/Shanghai
   MIR: gof
 jobs:
   build:
